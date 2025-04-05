@@ -23,8 +23,8 @@ _Ans_ It will not Work.
 ## Types of Module Patterns?
 
 **Ans:** There are two types of module pattern: <br> 
-   - common js module 
-    - ES Modules(ESM) / ES6 Modules / mjs
+   1. common js module 
+    2. ES Modules(ESM) / ES6 Modules / mjs
 
 ## Difference between common js module and ES Modules.
 
