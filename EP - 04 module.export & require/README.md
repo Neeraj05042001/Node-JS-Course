@@ -22,7 +22,9 @@ _Ans_ It will not Work.
 
 ## Types of Module Patterns?
 
-**Ans:** There are two types of module pattern: - common js module - ES Modules(ESM) / ES6 Modules / mjs
+**Ans:** There are two types of module pattern: <br> 
+   - common js module 
+    - ES Modules(ESM) / ES6 Modules / mjs
 
 ## Difference between common js module and ES Modules.
 
@@ -40,4 +42,3 @@ _Ans_ It will not Work.
 - e.g: z = "Hello World"
 In this z is declared without var, let or const. So it is not according to the ECMA Standard so when run through `commonjs module` it will work fine as `cjs module` runs in `non-strict` mode while `mjs` will not run and it will throw an error as `z` is not defined as `mjs` runs in `strict-mode`.
 
-`Note:` Always take care of strict mode and non-strict mode while using cjs and mjs modules. 
