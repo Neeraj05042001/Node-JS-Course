@@ -1,5 +1,9 @@
-require("./xyz.js");
-const { calculateSum, x } = require("./sum.js");
+// import  from "./xyz.js"
+import { calculateSum, x } from "./sum.js";
+
+// require("./xyz.js");
+// const { calculateSum, x } = require("./sum.js");
+
 
 console.log("Neeraj"); //Neeraj
 

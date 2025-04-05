@@ -16,7 +16,28 @@
 
 ## If I write a function in another module, can I use that function in a different module? Will it work or not?
 
-*Ans* It will not Work.
-  - Modules protect their variables and functions from leaking by default.
+_Ans_ It will not Work.
 
-  
+- Modules protect their variables and functions from leaking by default.
+
+## Types of Module Patterns?
+
+**Ans:** There are two types of module pattern: - common js module - ES Modules(ESM) / ES6 Modules / mjs
+
+## Difference between common js module and ES Modules.
+
+| Sr.No | Common js                        | ES Module                              |
+| ----- | -------------------------------- | -------------------------------------- |
+| 1     | require function & module.export | import & export                        |
+| 2     | By default used in NodeJS        | By default used in React, Angular etc. |
+| 3     | Older way                        | Newer way                              |
+| 4     | Synchronous                      | Asynchronous                           |
+| 5     | Code is run in non-strict mode   | Code is run in strict mode             |
+
+## Explain strict mode and non-strict mode in module pattern
+
+**Ans:** Running code in strict mode means if if finds something that does not follow the ECMA Standard then it will not run, it will throw an error. <br> 
+- e.g: z = "Hello World"
+In this z is declared without var, let or const. So it is not according to the ECMA Standard so when run through `commonjs module` it will work fine as `cjs module` runs in `non-strict` mode while `mjs` will not run and it will throw an error as `z` is not defined as `mjs` runs in `strict-mode`.
+
+`Note:` Always take care of strict mode and non-strict mode while using cjs and mjs modules. 
